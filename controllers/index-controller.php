@@ -7,35 +7,13 @@ $tennisXml = simplexml_load_file("../assets/xml/tennis.xml");
 $rugbyXml = simplexml_load_file("../assets/xml/rugby.xml");
 
 
-// accueil du fil ? 
-echo $actuXml->channel->title . "<br>" .
-     $actuXml->channel->link . "<br>" .
-     $actuXml->channel->description . "<br>" .
-     $actuXml->channel->lastBuildDate . "<br>" .
-     $actuXml->channel->docs . "<br>" .
-     $actuXml->channel->generator . "<br> <br>" ;
+$actuNews = $actuXml->channel->item;
 
 
-//artiles >
-echo $actuXml->channel->item[0]->title . '<br>'.
-     $actuXml->channel->item[0]->link . '<br>'.
-     $actuXml->channel->item[0]->pubDate . '<br>'.
-     $actuXml->channel->item[0]->description . '<br>'.
-     $actuXml->channel->item[0]->enclosure . '<br>' ; 
+include(dirname(__FILE__).'/../views/templates/header.php');
+include(dirname(__FILE__).'/../index.php');
+include(dirname(__FILE__).'/../views/templates/footer.php');
 
-
-echo $actuXml->channel->item[1]->title . '<br>'.
-     $actuXml->channel->item[1]->link . '<br>'.
-     $actuXml->channel->item[1]->pubDate . '<br>'.
-     $actuXml->channel->item[1]->description . '<br>'.
-     $actuXml->channel->item[1]->enclosure . '<br>' ; 
-
-
-
-
-
-
-// faire un for > pour chaque tableau, echo ce qu'il y a au dessus 
 
 
 // noeuds des flux >>>
