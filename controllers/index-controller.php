@@ -8,6 +8,10 @@ $rugbyXml = simplexml_load_file("../assets/xml/rugby.xml");
 
 
 $actuNews = $actuXml->channel->item;
+$footNews = $footballXml->channel->item;
+$basketNews = $basketXml->channel->item;
+$tennisNews = $tennisXml->channel->item;
+$rugbyNews = $rugbyXml->channel->item;
 
 
 include(dirname(__FILE__).'/../views/templates/header.php');
