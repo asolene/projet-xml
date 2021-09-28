@@ -5,8 +5,8 @@
 
         for ($i=0; $i <=5 ; $i++) { 
 
-            $news = $actuNews[$i]; 
-            
+            $news = $feed[$i];
+
     ?>
 
         <br>
@@ -40,8 +40,8 @@
         </div>
         <br>
 
-    <?php
-        }
+    <?php    
+      }
     ?>
     </div>
 </section>

@@ -67,7 +67,7 @@
 						</div>
 						<div class="col-md-3 col-sm-12 text-right">
 							<ul class="nav-icons">
-								<li><a href="#"><div>Paramètres</div></a></li>
+								<li><a href="/../../controllers/parameters-controller.php"><div>Paramètres</div></a></li>
 							</ul>
 						</div>
 					</div>
@@ -90,23 +90,34 @@
 					</div>
 					<div id="menu-list">
 						<ul class="nav-list">
-							
-							<li class="dropdown magz-dropdown"><a href="#">Football <i class="ion-ios-arrow-right"></i></a>
+
+
+							<li class="dropdown magz-dropdown"><a href="">Acceuil <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#">Basket <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/../../controllers/index-controller.php?topic=actu">Actu Sport <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#">Tennis <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/../../controllers/pages-controller.php?topic=football">Football <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="#">Rugby <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/../../controllers/pages-controller.php?topic=basket">Basket <i class="ion-ios-arrow-right"></i></a>
+								<ul class="dropdown-menu">
+									
+								</ul>
+							</li>
+							<li class="dropdown magz-dropdown"><a href="/../../controllers/pages-controller.php?topic=tennis">Tennis <i class="ion-ios-arrow-right"></i></a>
+								<ul class="dropdown-menu">
+									
+								</ul>
+							</li>
+							<li class="dropdown magz-dropdown"><a href="/../../controllers/pages-controller.php?topic=rugby">Rugby <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
