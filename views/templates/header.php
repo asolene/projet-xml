@@ -91,7 +91,7 @@
 					<div id="menu-list">
 						<ul class="nav-list">
 							
-							<li class="dropdown magz-dropdown"><a href="#">Accueil <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="#">Actualité<i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
