@@ -4,10 +4,11 @@
     <?php 
 
         for ($i=0; $i <=5 ; $i++) { 
-            # code...
+
             $news = $actuNews[$i]; 
             
     ?>
+
         <div class="row">
             <div class="col-md-8 col-sm-12 col-xs-12">
                 <div class="row">
