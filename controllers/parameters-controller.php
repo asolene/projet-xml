@@ -23,5 +23,8 @@ if ($_SERVER['REQUEST_METHOD'] =='POST') {
     
 }
 
-include('../views/parameters.php');
+include(dirname(__FILE__).'/../views/templates/header.php');
+include(dirname(__FILE__).'/../views/parameters.php');
+include(dirname(__FILE__).'/../views/templates/footer.php');
+
 ?>
