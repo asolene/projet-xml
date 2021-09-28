@@ -18,7 +18,25 @@ if ($_SERVER['REQUEST_METHOD'] =='POST') {
         if ($value < 0 || $value > 4 ) {
             $error['category'] = 'La valeur choisit n\est valable';
         }
-    }   
+    }
+    setcookie(
+        'darkmod',
+        $darkmod,
+        time()+3600*24*3,
+        '/'        
+    );  
+    setcookie(
+        'actu',
+        $actu,
+        time()+3600*24*3,
+        '/'        
+    );
+    setcookie(
+        'category',
+        json_encode($category),
+        time()+3600*24*3,
+        '/'        
+    );  
     
     
 }
