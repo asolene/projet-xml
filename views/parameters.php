@@ -18,9 +18,9 @@
         <div>
             <label for="actu"> Nombre d'actualités choisi :</label>
             <select name="actu" id="actu">
-                <option value="0">6</option>
-                <option value="1">9</option>
-                <option value="2">12</option>
+                <option value="6">6</option>
+                <option value="9">9</option>
+                <option value="12">12</option>
             </select>
         </div>
         <div>
