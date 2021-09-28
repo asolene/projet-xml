@@ -19,23 +19,4 @@ include(dirname(__FILE__).'/../index.php');
 include(dirname(__FILE__).'/../views/templates/footer.php');
 
 
-
-// noeuds des flux >>>
-// title
-// link
-// description
-// lastBuildDate 
-// docs
-// generator
-// language osef
-
-///////////////
-// title
-// link
-// pubDate
-// description
-// enclosure
-
-
-
 ?>

@@ -8,7 +8,7 @@
             $news = $actuNews[$i]; 
             
     ?>
-    
+
         <br>
         <div class="container">
             <div class="row">
@@ -17,11 +17,13 @@
                         <figure>
                             <img src="<?=$news->enclosure['url']?>" alt="Photo article">
                         </figure>
-                        <div class="details">
+                        <div class="details">                           
                             <div class="detail">
                                 <div class="time"><?=$news->pubDate?></div>
                             </div>
-                        <h1><?=$news->title?></h1>
+
+                            <h1><?=$news->title?></h1>
+
                             <p>
                                 <?=strip_tags($news->description)?>
                             </p>
