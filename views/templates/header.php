@@ -14,21 +14,21 @@
 		<meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
 		<title>SportFlux &mdash; l'actualité non stop &amp; FOOT TENNIS BASKET</title>
 		<!-- Bootstrap -->
-		<link rel="stylesheet" href="../../assets/scripts/bootstrap/bootstrap.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 		<!-- IonIcons -->
-		<link rel="stylesheet" href="../../assets/scripts/ionicons/css/ionicons.min.css">
+		<link rel="stylesheet" href="assets/scripts/ionicons/css/ionicons.min.css">
 		<!-- Toast -->
-		<link rel="stylesheet" href="../../assets/scripts/toast/jquery.toast.min.css">
+		<link rel="stylesheet" href="assets/scripts/toast/jquery.toast.min.css">
 		<!-- OwlCarousel -->
-		<link rel="stylesheet" href="../../assets/scripts/owlcarousel/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/scripts/owlcarousel/dist/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="assets/scripts/owlcarousel/dist/assets/owl.theme.default.min.css">
 		<!-- Magnific Popup -->
-		<link rel="stylesheet" href="../../assets/scripts/magnific-popup/dist/magnific-popup.css">
+		<link rel="stylesheet" href="assets/scripts/magnific-popup/dist/magnific-popup.css">
 		<link rel="stylesheet" href="assets/scripts/sweetalert/dist/sweetalert.css">
 		<!-- Custom style -->
-		<link rel="stylesheet" href="../../assets/css/style.css">
-		<link rel="stylesheet" href="../../assets/css/skins/all.css">
-		<link rel="stylesheet" href="../../assets/css/demo.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/skins/all.css">
+		<link rel="stylesheet" href="assets/css/demo.css">
 	</head>
 
 	<body class="skin-orange">
@@ -67,12 +67,51 @@
 						</div>
 						<div class="col-md-3 col-sm-12 text-right">
 							<ul class="nav-icons">
-								<li><a href="#"><div>Paramètres</div></a></li>
+								<li><a href="#"><div data-bs-toggle="modal" data-bs-target="#exampleModal">Paramètres</div></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
+			<!--Modal-->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title" id="exampleModalLabel">Paramètres d'affichages</h5>
+					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+						<br>
+					<form action="" method="POST">
+										
+						<div>
+							<label for="actu"> Nombre d'actualités choisi :</label>
+							<select name="actu" id="actu">
+								<option value="0">6</option>
+								<option value="1">9</option>
+								<option value="2">12</option>
+							</select>
+						</div>
+						<div>
+							<label for="checkbox">Choisissez 3 sujets :</label><br>
+							<ul>
+								<li><input type="checkbox" name="category[]" value="0"><a href="https://rmcsport.bfmtv.com/rss/fil-sport/">Sport</a></li>
+								<li><input type="checkbox" name="category[]" value="1"><a href="https://rmcsport.bfmtv.com/rss/football/">Football</a></li>
+								<li><input type="checkbox" name="category[]" value="2"><a href="https://rmcsport.bfmtv.com/rss/basket/">Basket</a></li>
+								<li><input type="checkbox" name="category[]" value="3"><a href="https://rmcsport.bfmtv.com/rss/tennis/">Tennis</a></li>
+								<li><input type="checkbox" name="category[]" value="4"><a href="https://rmcsport.bfmtv.com/rss/rugby/">Rugby</a></li>
+							</ul>          
+							
+							
+						</div>
+						
+					</form>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-primary" type="submit" data-bs-dismiss="modal">Valider !</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
 
 			<!-- Start nav -->
 			<nav class="menu">
@@ -91,16 +130,10 @@
 					<div id="menu-list">
 						<ul class="nav-list">
 							
-							<li class="dropdown magz-dropdown"><a href="#">Actualité<i class="ion-ios-arrow-right"></i></a>
-								<ul class="dropdown-menu">
-									
-								</ul>
-                </li>
 							<li class="dropdown magz-dropdown"><a href="#">Football <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
-							</li>
 							</li>
 							<li class="dropdown magz-dropdown"><a href="#">Basket <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
@@ -124,20 +157,3 @@
 			</nav>
 			<!-- End nav -->
 		</header>
-
-
-
-    <!-- JS -->
-		<script src="../../assets/js/jquery.js"></script>
-		<script src="../../assets/js/jquery.migrate.js"></script>
-		<script src="../../assets/scripts/bootstrap/bootstrap.min.js"></script>
-		<script>var $target_end=$(".best-of-the-week");</script>
-		<script src="../../assets/scripts/jquery-number/jquery.number.min.js"></script>
-		<script src="../../assets/scripts/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-		<script src="../../assets/scripts/easescroll/jquery.easeScroll.js"></script>
-		<script src="../../assets/scripts/sweetalert/dist/sweetalert.min.js"></script>
-		<script src="../../assets/scripts/toast/jquery.toast.min.js"></script>
-		<script src="../../assets/js/demo.js"></script>
-		<script src="../../assets/js/e-magz.js"></script>
-	</body>
-</html>

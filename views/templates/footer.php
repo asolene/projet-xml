@@ -125,16 +125,17 @@
 		<!-- End Footer -->
 
 		<!-- JS -->
-		<script src="../../assets/js/jquery.js"></script>
-		<script src="../../assets/js/jquery.migrate.js"></script>
-		<script src="../../assets/scripts/bootstrap/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/jquery.migrate.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 		<script>var $target_end=$(".best-of-the-week");</script>
-		<script src="../../assets/scripts/jquery-number/jquery.number.min.js"></script>
-		<script src="../../assets/scripts/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-		<script src="../../assets/scripts/easescroll/jquery.easeScroll.js"></script>
-		<script src="../../assets/scripts/sweetalert/dist/sweetalert.min.js"></script>
-		<script src="../../assets/scripts/toast/jquery.toast.min.js"></script>
-		<script src="../../assets/js/demo.js"></script>
-		<script src="../../assets/js/e-magz.js"></script>
+		<script src="scripts/jquery-number/jquery.number.min.js"></script>
+		<script src="scripts/owlcarousel/dist/owl.carousel.min.js"></script>
+		<script src="scripts/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+		<script src="scripts/easescroll/jquery.easeScroll.js"></script>
+		<script src="scripts/sweetalert/dist/sweetalert.min.js"></script>
+		<script src="scripts/toast/jquery.toast.min.js"></script>
+		<script src="assets/js/demo.js"></script>
+		<script src="assets/js/e-magz.js"></script>
 	</body>
 </html>
