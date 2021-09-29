@@ -19,12 +19,6 @@
 		<link rel="stylesheet" href="../../assets/scripts/ionicons/css/ionicons.min.css">
 		<!-- Toast -->
 		<link rel="stylesheet" href="../../assets/scripts/toast/jquery.toast.min.css">
-		<!-- OwlCarousel -->
-		<link rel="stylesheet" href="../../assets/scripts/owlcarousel/dist/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/scripts/owlcarousel/dist/assets/owl.theme.default.min.css">
-		<!-- Magnific Popup -->
-		<link rel="stylesheet" href="../../assets/scripts/magnific-popup/dist/magnific-popup.css">
-		<link rel="stylesheet" href="assets/scripts/sweetalert/dist/sweetalert.css">
 		<!-- Custom style -->
 		<link rel="stylesheet" href="../../assets/css/style.css">
 		<link rel="stylesheet" href="../../assets/css/skins/all.css">
@@ -37,7 +31,7 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-12">
 							<div class="brand">
-								<a href="index.html">
+								<a href="/../../controllers/index-controller.php">
 									<img src="https://zupimages.net/up/21/39/l2t3.png" alt="SportFlux Logo">
 								</a>
 							</div>						
@@ -89,7 +83,7 @@
 					</div>
 					<div id="menu-list">
 						<ul class="nav-list">
-							<li class="dropdown magz-dropdown"><a href="/../../controllers/index-controller.php?topic=actu">Acceuil <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/../../controllers/index-controller.php">Acceuil <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
