@@ -7,7 +7,11 @@
 							<h1 class="block-title"></h1>
 							<div class="block-body">
 								<figure class="foot-logo">
+<<<<<<< HEAD
 									<img src="../../assets/images/logo-light.png" class="img-responsive" alt="Logo">
+=======
+									<img src="assets/images/logo-light.png" class="img-responsive" alt="Logo">
+>>>>>>> origin/lucas-l
 								</figure>
 								<p class="brand-description">
 									Sport Flux, retrouvez toute l'actualité et l'info du sport en continu.
@@ -88,12 +92,24 @@
 			</div>
 		</footer>
 		<!-- End Footer -->
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/lucas-l
 		<!-- JS -->
 		<script src="../../assets/js/jquery.js"></script>
 		<script src="../../assets/js/jquery.migrate.js"></script>
 		<script src="../../assets/scripts/bootstrap/bootstrap.min.js"></script>
+<<<<<<< HEAD
 		<script src="../../assets/scripts/jquery-number/jquery.number.min.js"></script>
 		<script src="../../assets/scripts/easescroll/jquery.easeScroll.js"></script>
+=======
+		<script>var $target_end=$(".best-of-the-week");</script>
+		<script src="../../assets/scripts/jquery-number/jquery.number.min.js"></script>
+		<script src="../../assets/scripts/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+		<script src="../../assets/scripts/easescroll/jquery.easeScroll.js"></script>
+		<script src="../../assets/scripts/sweetalert/dist/sweetalert.min.js"></script>
+>>>>>>> origin/lucas-l
 		<script src="../../assets/scripts/toast/jquery.toast.min.js"></script>
 		<script src="../../assets/js/demo.js"></script>
 		<script src="../../assets/js/e-magz.js"></script>
