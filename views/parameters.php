@@ -22,6 +22,8 @@
                 <option value="9">9</option>
                 <option value="12">12</option>
             </select>
+            <p><?= $_SESSION['actu']?></p>
+
         </div>
         <div>
             <label for="checkbox">Choisissez 3 sujets :</label><br>
