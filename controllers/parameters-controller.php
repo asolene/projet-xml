@@ -18,6 +18,10 @@ if ($_SERVER['REQUEST_METHOD'] =='POST') {
         if ($value < 0 || $value > 4 ) {
             $error['category'] = 'La valeur choisit n\est valable';
         }
+        foreach ($category as $key => $value) {
+            $isSelected = ($category == $categoryValue) ? 'selected' : '';
+            echo "<option $isSelected value=\"$categoryValue\">$categoryNameInSelect</option>";        
+        }
     }
     setcookie(
         'darkmod',
@@ -36,7 +40,8 @@ if ($_SERVER['REQUEST_METHOD'] =='POST') {
         json_encode($category),
         time()+3600*24*3,
         '/'        
-    );  
+    );
+    
     
     
 }
