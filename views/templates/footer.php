@@ -10,14 +10,14 @@
 									<img src="../../assets/images/logo-light.png" class="img-responsive" alt="Logo">
 								</figure>
 								<p class="brand-description">
-									Sport Flux, retrouvez toute l'actualité et l'info du sport en continu.
+									Sport Flux, retrouvez toute l'actualité et l'info du sport en continue.
 								</p>
-								<a href="page.html" class="btn btn-magz white">À propos de nous <i class="ion-ios-arrow-thin-right"></i></a>
+								<a href="" class="btn btn-magz white">À propos de nous <i class="ion-ios-arrow-thin-right"></i></a>
 							</div>
 						</div>
 					</div>
+
 					<div class="col-md-3 col-sm-6 col-xs-12">
-						
 						<div class="line"></div>
 						<div class="block">
 							<h1 class="block-title">Newsletter</h1>
