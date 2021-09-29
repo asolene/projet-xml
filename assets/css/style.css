@@ -238,7 +238,6 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .line div {
-  font-weight: 800;
   font-family: 'Raleway';
   color: #000;
   margin: 10px 0;
@@ -278,8 +277,20 @@ a, .btn {
   -o-transition: all 0.5s;
   -moz-transition: all 0.5s;
 }
-
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: initial;
+  line-height: inherit;
+}
+label {
+    margin-inline: 30px;
+    font-size: medium;
+    color: black;
+    display: inline-block;
+}
 a {
+  font-size: inherit;
   color: #F73F52;
 }
 a:hover, a:focus {
@@ -1272,8 +1283,6 @@ section.search .search-result {
 .firstbar .nav-icons li a div {
   float: left;
   text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 1px;
   margin-top: 3px;
 }
 .firstbar .nav-icons li a:hover {
@@ -3010,6 +3019,7 @@ footer.footer .footer-nav-horizontal {
 }
 p {
   color: #fff;
+  font-size: large;
   margin: 0 0 10px;
 }
 footer.footer .footer-nav-horizontal li {
@@ -3099,7 +3109,8 @@ footer.footer .newsletter .input-group-addon i:before {
   -o-transform: scale(1.4);
 }
 footer.footer .newsletter .form-control {
-  padding-left: 40px;
+  padding-left: 300px;
+  padding-block: 10px;
 }
 footer.footer .article-mini .detail .time, footer.footer .article-mini .detail .category a {
   color: #848f9a;
@@ -4041,3 +4052,5 @@ blockquote {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+

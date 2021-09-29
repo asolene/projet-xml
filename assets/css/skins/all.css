@@ -61,14 +61,21 @@ body.skin-dark {
 .skin-dark .menu ul > li > a{
   color: #ffffff;
 }
-
+label .skin-dark {
+  color: red;
+  display: inline-block;
+}
 .skin-dark section.single article.main-article .main p {
   color: #fff;
 }
-.skin-dark h1, h2, h3, h4, h5, h6, .line div {
-  font-weight: 800;
+.skin-dark h1, h2, h3, h4, h6, .line div {
   font-family: 'Raleway';
   color: rgb(255, 255, 255);
+  margin: 10px 0;
+}
+.skin-dark h5,.line div {
+  font-family: 'Raleway';
+  color: rgb(0, 0, 0);
   margin: 10px 0;
 }
 .skin-dark .menu{

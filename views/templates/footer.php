@@ -88,7 +88,6 @@
 			</div>
 		</footer>
 		<!-- End Footer -->
-
 		<!-- JS -->
 		<script src="../../assets/js/jquery.js"></script>
 		<script src="../../assets/js/jquery.migrate.js"></script>

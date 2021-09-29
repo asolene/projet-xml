@@ -30,7 +30,6 @@
 		<link rel="stylesheet" href="../../assets/css/skins/all.css">
 		<link rel="stylesheet" href="../../assets/css/demo.css">
 	</head>
-
 	<body class="skin-orange">
 		<header class="primary">
 			<div class="firstbar">
@@ -90,14 +89,12 @@
 					</div>
 					<div id="menu-list">
 						<ul class="nav-list">
-
-
-							<li class="dropdown magz-dropdown"><a href="">Acceuil <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/../../controllers/index-controller.php?topic=actu">Acceuil <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="/../../controllers/index-controller.php?topic=actu">Actu Sport <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/../../controllers/pages-controller.php?topic=actu">Actu Sport <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
@@ -129,4 +126,3 @@
 			</nav>
 			<!-- End nav -->
 		</header>
-
