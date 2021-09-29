@@ -12,7 +12,7 @@
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="http://github.com/nauvalazhar/Magz" />
 		<meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
-		<title>SportFlux &mdash; l'actualité non stop &amp; FOOT TENNIS BASKET</title>
+		<title>SPORTFLUX &mdash; l'actualité non stop &amp; FOOT TENNIS BASKET RUGBY</title>
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="../../assets/scripts/bootstrap/bootstrap.min.css">
 		<!-- IonIcons -->
