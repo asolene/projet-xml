@@ -22,7 +22,7 @@
                 <option value="9">9</option>
                 <option value="12">12</option>
             </select>
-            <p><?= $_SESSION['actu']?></p>
+            <?= $_SESSION['category']?></p>
 
         </div>
         <div>

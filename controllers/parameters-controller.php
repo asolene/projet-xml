@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] =='POST') {
         $error['darkmod'] ='Mauvaise valeur sur le choix';
     }
     $actu = intval(trim(filter_input(INPUT_POST,'actu',FILTER_SANITIZE_NUMBER_INT)));
-    if ($actu != 0 && $actu !=1 && $actu !=2) {
+    if ($actu != 6 && $actu !=9 && $actu !=12) {
         $error['actu'] = 'Mauvaise valeur sur le choix';
     }
     $category = filter_input(INPUT_POST,'category',FILTER_SANITIZE_NUMBER_INT,FILTER_REQUIRE_ARRAY);    
@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] =='POST') {
         '/'        
     );
     session_start();
-        $_SESSION['actu'] = 6;
+        $_SESSION['category'] = $value; 
         
 
 
