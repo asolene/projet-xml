@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h1>Actualité - Sport</h1>
+                <h1>Actu : Sport</h1>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h1>Actualité - Basket</h1>
+                <h1>Actu : Basket</h1>
             </div>
         </div>
     </div>
@@ -110,7 +110,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-12 mb-2 text-center ">
-                <h1>Actualité - Rugby</h1>
+                <h1>Actu : Rugby</h1>
             </div>
         </div>
     </div>

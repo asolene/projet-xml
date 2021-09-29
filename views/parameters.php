@@ -5,7 +5,7 @@
                     <table width="100%">
             
                         <tr for="actu">
-                            <td><strong>Nombre d'actualités choisi :</strong></td>
+                            <td><strong>Nombre d'actualités choisies :</strong></td>
                             <td>
                                 <div>
                                     <select name="actu" id="actu">
