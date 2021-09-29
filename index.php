@@ -4,10 +4,11 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h1>actualité - sport</h1>
+                <h1>Actualité - Sport</h1>
             </div>
         </div>
     </div>
+    <br>
 
     <?php 
 
@@ -56,11 +57,11 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h1>actualité - basket</h1>
+                <h1>Actualité - Basket</h1>
             </div>
         </div>
     </div>
-
+    <br>
 
     <?php 
 
@@ -109,10 +110,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-12 mb-2 text-center ">
-                <h1>actualité - rugby</h1>
+                <h1>Actualité - Rugby</h1>
             </div>
         </div>
     </div>
+    <br>
 
     <?php 
 
