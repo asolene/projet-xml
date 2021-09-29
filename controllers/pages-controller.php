@@ -1,5 +1,12 @@
 <?php
 
+if(empty($_COOKIE['actu'])){
+    $cookieNbr = 3;
+}else{
+    $cookieNbr = $_COOKIE['actu'];
+}
+
+
 $topic = filter_input(INPUT_GET,'topic', FILTER_SANITIZE_STRING);
 
 $urlActu = "https://rmcsport.bfmtv.com/rss/fil-sport/";

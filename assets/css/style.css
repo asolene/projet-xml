@@ -4136,7 +4136,7 @@ input[type=checkbox]:checked + span::after{
 }
 
 input[type=submit] {
-  background-color: #2ecc71;
+  background-color: #F73F52;
   border: 0;
   border-radius: 4px;
   color: #FFF;

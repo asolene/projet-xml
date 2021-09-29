@@ -2,6 +2,7 @@
         <div class="container">
             <div class="row">
             <div class="holder">
+            <form action="" method="post">
                     <table width="100%">
             
                         <tr for="actu">
@@ -84,13 +85,14 @@
                         <tr>
                         <tr>
                             <td colspan="2">
-                                <button class="btn btn-primary btn-block white">Valider </button>
+                                <input type="submit" value="valider" class="btn btn-danger btn-block ">                                
                             </td>
                         </tr>
                     </table>
+            </form>
                 </div>
             </div>
-            <br>
+            
         </div>
     </section>
 
