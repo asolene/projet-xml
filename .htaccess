@@ -1,0 +1,7 @@
+RewriteEngine On
+
+ErrorDocument 404 /controllers/404-controller.php
+RewriteRule parametres.html /controllers/parameters-controller.php
+RewriteRule accueil.html /controllers/index-controller.php
+
+RewriteRule sujet-([a-zA-Z]*).html /controllers/pages-controller.php?topic=$1

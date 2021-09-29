@@ -4,14 +4,6 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta name="description" content="Magz is a HTML5 & CSS3 magazine template is based on Bootstrap 3.">
-		<meta name="author" content="Kodinger">
-		<meta name="keyword" content="magz, html5, css3, template, magazine template">
-		<!-- Shareable -->
-		<meta property="og:title" content="HTML5 & CSS3 magazine template is based on Bootstrap 3" />
-		<meta property="og:type" content="article" />
-		<meta property="og:url" content="http://github.com/nauvalazhar/Magz" />
-		<meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
 		<title>SPORTFLUX &mdash; l'actualité non stop &amp; FOOT TENNIS BASKET RUGBY</title>
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="../../assets/scripts/bootstrap/bootstrap.min.css">
@@ -60,7 +52,7 @@
 						</div>
 						<div class="col-md-3 col-sm-12 text-right">
 							<ul class="nav-icons">
-								<li><a href="/../../controllers/parameters-controller.php"><div>Paramètres</div></a></li>
+								<li><a href="/parametres.html"><div>Paramètres</div></a></li>
 							</ul>
 						</div>
 					</div>
@@ -83,32 +75,32 @@
 					</div>
 					<div id="menu-list">
 						<ul class="nav-list">
-							<li class="dropdown magz-dropdown"><a href="/../../controllers/index-controller.php">Acceuil <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/accueil.html">Accueil <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="/../../controllers/pages-controller.php?topic=actu">Actu Sport <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/sujet-actu.html">Actu Sport <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="/../../controllers/pages-controller.php?topic=football">Football <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/sujet-football.html">Football <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="/../../controllers/pages-controller.php?topic=basket">Basket <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/sujet-basket.html">Basket <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="/../../controllers/pages-controller.php?topic=tennis">Tennis <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/sujet-tennis.html">Tennis <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
 							</li>
-							<li class="dropdown magz-dropdown"><a href="/../../controllers/pages-controller.php?topic=rugby">Rugby <i class="ion-ios-arrow-right"></i></a>
+							<li class="dropdown magz-dropdown"><a href="/sujet-rugby.html">Rugby <i class="ion-ios-arrow-right"></i></a>
 								<ul class="dropdown-menu">
 									
 								</ul>
