@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h1>Actu : Sport</h1>
+                <h1>Actu sport</h1>
             </div>
         </div>
     </div>
@@ -17,7 +17,6 @@
 
             $news = $actuNews[$i];
 
-    
     ?>
 
         <div class="container">
@@ -36,7 +35,7 @@
                                 <?=strip_tags($news->description)?>
                             </p>
                             <footer>
-                                <a class="btn btn-primary more" href="single.html">
+                                <a class="btn btn-primary more" href="<?=$news->link?>" target="_blank">
                                     <div>Lire l'article</div>
                                     <div><i class="ion-ios-arrow-thin-right"></i></div>
                                 </a>
@@ -57,7 +56,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h1>Actu : Basket</h1>
+                <h1>Actu basket</h1>
             </div>
         </div>
     </div>
@@ -70,7 +69,6 @@
 
             $news = $basketNews[$i];
 
-    
     ?>
 
         <div class="container">
@@ -110,7 +108,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-12 mb-2 text-center ">
-                <h1>Actu : Rugby</h1>
+                <h1>Actu rugby</h1>
             </div>
         </div>
     </div>
@@ -122,7 +120,6 @@
     for ($i=0; $i <=2 ; $i++) { 
 
         $news = $rugbyNews[$i];
-
 
     ?>
 
